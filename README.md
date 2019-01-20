@@ -1,6 +1,6 @@
 # glsl-demo - webGLでGLSLを使うデモ
 
-view demo page : https://tohfu.github.io/glsl-demo/
+view demo page : https://akagiri-pivot.github.io/glsl-demo/
 
 
 このデモでは、[three.js](https://threejs.org/)を使っています。
@@ -10,7 +10,7 @@ view demo page : https://tohfu.github.io/glsl-demo/
 
 ## デモ01：板ポリゴンにfragment shaderで色をつけてみる
 
-[デモページ](https://tohfu.github.io/glsl-demo/01_simple_color.html)
+[デモページ](https://akagiri-pivot.github.io/glsl-demo/01_simple_color.html)
 
 まずは、板ポリを作成→シェーダーを設定してみます。
 
@@ -236,7 +236,7 @@ three.jsで定義されているので、詳しくは [Built-in uniforms and att
 
 <img src="https://github.com/TOHFU/glsl-demo/blob/master/figure/figure01.png" width="320px">
 
-[デモページ](https://tohfu.github.io/glsl-demo/02_01_simple_texture.html)
+[デモページ](https://akagiri-pivot.github.io/glsl-demo/02_01_simple_texture.html)
 
 次に、この板ポリゴンにテクスチャを貼り付けてみます。
 
@@ -369,9 +369,9 @@ fragment shader側では、上記の座標データ(vUv)と、テクスチャデ
 
 <img src="https://github.com/TOHFU/glsl-demo/blob/master/figure/figure02.png" width="320px">
 
-[デモページ](https://tohfu.github.io/glsl-demo/02_02_simple_texture_scaled.html)
+[デモページ](https://akagiri-pivot.github.io/glsl-demo/02_02_simple_texture_scaled.html)
 
-先ほどの[デモ02-01](https://tohfu.github.io/glsl-demo/02_01_simple_texture.html)では、ウインドウサイズを変更した時に、テクスチャの画角が変わってしまいました。
+先ほどの[デモ02-01](https://akagiri-pivot.github.io/glsl-demo/02_01_simple_texture.html)では、ウインドウサイズを変更した時に、テクスチャの画角が変わってしまいました。
 
 サイズ固定のcanvasで使うときは問題ないですが、もう少し実用的に使えるように改善してみます。
 
@@ -493,7 +493,7 @@ vector[3] = vector.a = vector.w = vector.q;
 
 <img src="https://github.com/TOHFU/glsl-demo/blob/master/figure/figure03.png" width="320px">
 
-[デモページ](https://tohfu.github.io/glsl-demo/03_01_effect_by_time_rgb_shifter.html)
+[デモページ](https://akagiri-pivot.github.io/glsl-demo/03_01_effect_by_time_rgb_shifter.html)
 
 今までのデモをもとに、実際にアニメーションするエフェクトを作成してみたいと思います。
 
@@ -609,7 +609,7 @@ float t = mod(u_time / 1000.0, 1.0);
 
 <img src="https://github.com/TOHFU/glsl-demo/blob/master/figure/figure04.png" width="320px">
 
-[デモページ](https://tohfu.github.io/glsl-demo/03_02_effect_by_mouse_interaction.html)
+[デモページ](https://akagiri-pivot.github.io/glsl-demo/03_02_effect_by_mouse_interaction.html)
 
 最後に、インタラクション要素のあるエフェクトを作ってみます。
 基本的に要領は一緒で、uniform変数を使ってマウス座標を2次元ベクトル形式で送信します。
